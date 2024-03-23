@@ -1,7 +1,7 @@
 const express = require("express");
 const { google } = require("googleapis");
 const bodyParser = require("body-parser");
-const { client_email, private_key } = require("./src/service-acc.json");
+const { client_email, private_key } = require("./service-acc.json");
 const cors = require("cors");
 
 const app = express();
