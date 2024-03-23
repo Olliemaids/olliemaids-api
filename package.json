@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "agent-base": "^7.1.0",
     "cors": "^2.8.5",
     "express": "^4.19.1",
     "googleapis": "^134.0.0",
@@ -8,7 +9,6 @@
   "name": "teste",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "engines": {
     "node": "20.x"
   },
