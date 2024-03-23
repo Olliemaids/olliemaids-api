@@ -5,7 +5,7 @@ const { client_email, private_key } = require('./service-acc.json');
 const cors = require('cors');
 
 const app = express();
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 app.use(bodyParser.json());
 app.use(cors());
