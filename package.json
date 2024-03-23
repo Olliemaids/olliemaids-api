@@ -8,8 +8,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "dev": "node src/index.js"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
