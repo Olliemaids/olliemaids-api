@@ -2,7 +2,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.1",
-    "googleapis": "^134.0.0"
+    "googleapis": "^134.0.0",
+    "tsc": "^2.0.4"
   },
   "name": "teste",
   "version": "1.0.0",
